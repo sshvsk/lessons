@@ -5,11 +5,10 @@
 """
 
 number = int(input())
+i = 1
 result = 0
-index = 1
-
-while index <= number:
-    index += 1
-    result += index ** 3
+while number >= i:
+    result += i ** 3
+    i += 1
 print(result)
 
